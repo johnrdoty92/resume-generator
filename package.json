@@ -1,6 +1,5 @@
 {
-  "name": "resume-generator",
-  "version": "0.0.0",
+  "name": "resume-generator--root",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,12 +8,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@johnrdoty92/resume-generator": "file:lib",
     "@react-pdf/renderer": "^4.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
+    "@microsoft/api-extractor": "^7.53.1",
+    "@types/node": "^24.8.1",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react-swc": "^3.8.0",
@@ -24,6 +26,7 @@
     "globals": "^16.0.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
+    "unplugin-dts": "^1.0.0-beta.6",
     "vite": "^6.3.1"
   }
 }

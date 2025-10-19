@@ -1,5 +1,5 @@
 import { PDFViewer } from "@react-pdf/renderer";
-import { Resume } from "./components/Resume";
+import { Resume } from "@johnrdoty92/resume-generator";
 import { staticResume } from "./staticResume";
 import "./index.css";
 

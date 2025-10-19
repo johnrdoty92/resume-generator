@@ -1,0 +1,31 @@
+{
+  "name": "@johnrdoty92/resume-generator",
+  "version": "0.0.0",
+  "description": "Quick resume generator for React apps",
+  "main": "./dist/resume-generator.js",
+  "types": "./dist/resume-generator.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@react-pdf/renderer": ">=4.3.0",
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnrdoty92/resume-generator.git"
+  },
+  "keywords": [
+    "resume",
+    "react",
+    "pdf"
+  ],
+  "author": "John Doty (https://github.com/johnrdoty92)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnrdoty92/resume-generator/issues"
+  },
+  "homepage": "https://github.com/johnrdoty92/resume-generator#readme"
+}
