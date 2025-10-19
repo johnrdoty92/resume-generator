@@ -21,6 +21,7 @@ jobs:
         with:
           config-file: configs/release-please-config.json
           manifest-file: configs/.release-please-manifest.json
+          path: lib
 
       - name: Checkout main
         if: ${{ steps.release.outputs.release_created }}
