@@ -10,6 +10,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
   plugins: [react(), dts({ bundleTypes: true, tsconfigPath: "./tsconfig.app.json" })],
   build: {
+    outDir: 'lib/dist',
     lib: {
       entry: resolve(__dirname, "lib/index.ts"),
       name: "@johnrdoty92/resume-generator",
